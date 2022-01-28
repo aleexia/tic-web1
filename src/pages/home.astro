@@ -1,9 +1,30 @@
 <html>
   <head>
       <meta charset="utf-8" />
-      <title>Home</title>
+      <meta name="author" content="Alexia" />
+      <meta name="keywords" content="HTML, CSS, Astro" />
+      <title>Ideopodcasts - Home</title>
       <style>
-
+        *, body {  
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        #header {
+          background-color: #eee;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 250px 1fr;
+        }
+       #menu ul {
+        display: flex;
+        justify-content: end;
+        gap: 1em;
+       }
+       #menu ul li {
+        list-style: none;
+        padding: 0.5em;
+       }
       </style>
   </head>
   <body>
@@ -26,6 +47,12 @@
         </ul>
       </div>
     </div>
-home
+    <!-- ======= Bloque de página ======= -->
+    <div class="main">
+        <h1>Página principal</h1>
+        <p>Párrafo de la página principal</p>
+    </div>
+      <!-- ======== Pie de página ========= -->
+      <div class="foot">
   </body>
 </html>
